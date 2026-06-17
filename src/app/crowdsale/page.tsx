@@ -23,8 +23,8 @@ export default function CrowdsalePage() {
         <header className="flex flex-col md:flex-row justify-between items-end gap-4">
           <div>
             <Badge className="bg-primary/20 text-primary border-primary/30 mb-2 px-3">Active Now</Badge>
-            <h1 className="text-5xl font-bold font-headline">Forge Finance Seed Round</h1>
-            <p className="text-muted-foreground text-lg">Decentralized liquidity provisioning for the VaultForge ecosystem.</p>
+            <h1 className="text-5xl font-bold font-headline">Stratum Seed Round</h1>
+            <p className="text-muted-foreground text-lg">Decentralized liquidity provisioning for the Stratum ecosystem.</p>
           </div>
           <div className="flex items-center gap-2 bg-secondary/50 p-4 rounded-xl border border-white/5">
             <Timer className="w-5 h-5 text-accent" />
@@ -51,7 +51,7 @@ export default function CrowdsalePage() {
                   </div>
                   <div className="space-y-1">
                     <p className="text-xs text-muted-foreground uppercase font-bold">Price</p>
-                    <p className="text-3xl font-bold">1 ETH = 50k FGE</p>
+                    <p className="text-3xl font-bold">1 ETH = 50k STRAT</p>
                   </div>
                 </div>
 
@@ -80,7 +80,7 @@ export default function CrowdsalePage() {
                 <CardContent className="space-y-4 text-sm">
                   <div className="flex justify-between border-b border-white/5 pb-2">
                     <span className="text-muted-foreground">Total Supply</span>
-                    <span className="font-mono">100,000,000 FGE</span>
+                    <span className="font-mono">100,000,000 STRAT</span>
                   </div>
                   <div className="flex justify-between border-b border-white/5 pb-2">
                     <span className="text-muted-foreground">Vesting Schedule</span>
@@ -149,7 +149,7 @@ export default function CrowdsalePage() {
                 <div className="p-4 rounded-xl bg-secondary/50 border border-white/5 space-y-2">
                   <div className="flex justify-between text-sm">
                     <span className="text-muted-foreground">You will receive</span>
-                    <span className="font-bold text-accent">{(parseFloat(ethAmount || "0") * 50000).toLocaleString()} FGE</span>
+                    <span className="font-bold text-accent">{(parseFloat(ethAmount || "0") * 50000).toLocaleString()} STRAT</span>
                   </div>
                   <div className="flex justify-between text-sm">
                     <span className="text-muted-foreground">Gas Estimate</span>

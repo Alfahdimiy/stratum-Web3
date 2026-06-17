@@ -2,7 +2,7 @@ import type {Metadata} from 'next';
 import './globals.css';
 
 export const metadata: Metadata = {
-  title: 'VaultForge | Web3 Launchpad & Staking',
+  title: 'Stratum Web3 | Next-Gen Launchpad & Staking',
   description: 'Premium Web3 Launchpad with AI-driven rewards forecasting and multi-tier staking.',
 };
 
