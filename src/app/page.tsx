@@ -24,7 +24,7 @@ export default function Home() {
             </span>
           </h1>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            Secure, audited, and AI-powered launchpad ecosystem for high-conviction staking and seed participation.
+            An enterprise hybrid Web3 infrastructure suite for automated asset staking, secure seed crowdfunding, and real-time ledger synchronization.
           </p>
           <div className="flex flex-wrap items-center justify-center gap-4">
             <Link href="/crowdsale">
