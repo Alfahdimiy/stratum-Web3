@@ -41,3 +41,8 @@ Follow these steps to spin up the entire full-stack environment locally.
 ```bash
 git clone [https://github.com/Alfahdimiy/stratum-Web3.git](https://github.com/Alfahdimiy/stratum-Web3.git)
 cd stratum-Web3
+
+<video src="stratum.mp4" controls width="640" height="360">
+  Your browser does not support the video tag.
+</video>
+
