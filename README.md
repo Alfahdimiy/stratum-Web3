@@ -15,6 +15,10 @@ Stratum uses a split-tier hybrid architecture to ensure maximum performance and 
 
 ## ✨ Key Features
 
+<video src="stratum.mp4" controls width="640" height="360">
+  Your browser does not support the video tag.
+</video>
+
 * **Advanced Staking Mechanics:** Dynamic APY calculations with secure, time-locked reward distributions.
 * **RPC Request Batching:** Drastically reduces node provider costs by utilizing multicall aggregators and off-chain caching.
 * **Enterprise-Grade Security:** Built-in safeguards against reentrancy, integer overflow/underflow, and flash-loan price manipulation.
@@ -43,10 +47,3 @@ Follow these steps to spin up the entire full-stack environment locally.
 ```bash
 git clone [https://github.com/Alfahdimiy/stratum-Web3.git](https://github.com/Alfahdimiy/stratum-Web3.git)
 cd stratum-Web3
-
-
-### DEMO VIEW
-<video src="stratum.mp4" controls width="640" height="360">
-  Your browser does not support the video tag.
-</video>
-
